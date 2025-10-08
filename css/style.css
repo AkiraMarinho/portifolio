@@ -73,5 +73,77 @@ body {
 
 .call-to-action:hover {
     transform: scale(1.1);
-    transition: 0.9s;
+    transition: 0.3s;
+}
+
+.sobre {
+    background-color: #fff;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre div {
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.sobre img {
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+.sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 14px;
+}
+
+.projetos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.lista-projeto {
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 8px
+    font-family: ;
+}
+
+.projetos p {
+    margin-bottom: 40px;
+    font-family: italic;
+}
+
+.projetos img {
+    width: 22%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.projetos img:hover {
+    transform: scale(1.03);
+    opacity: 1;
+
 }
